@@ -13,9 +13,11 @@ Follow the instructions in [dalamud-plugins](https://github.com/crweul/dalamud-p
 - Sets a chosen status (e.g., /afk) when the game loses focus.
 - Restores a chosen status when the game regains focus.
 - Lets you pick which statuses to use in the settings window.
+- Lets you set a delay (up to 10 minutes) before the unfocused status is applied
 
 ## How to use
 - Open the settings window with `/autostatus` or `/aus`.
 - Choose your focused and unfocused statuses.
 - Alt-tab away from the game to trigger the unfocused status.
 - Return to the game to restore the focused status.
+- Raise "Delay before unfocused status" if short alt-tabs keep flipping your status.
